@@ -1,0 +1,280 @@
+body 
+{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1
+{
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-kerning: auto;
+
+}
+
+h2
+{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    margin-top:-25px;
+
+}
+
+h3
+{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top:-15px;
+
+}
+
+h4
+{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
+}
+
+p, ul, li
+{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.logo 
+{ 
+    width: 50px;
+    height: auto;
+
+}
+
+
+.menu-nav
+{
+    padding-right: 3rem; 
+    padding-top: 5rem;
+    float: right;
+}
+
+.menu-nav a:hover
+{
+    color: #BAB5BD;
+}
+
+.social-nav
+{
+    padding-left: 3rem; 
+    padding-top: 5rem;
+    float: left;
+}
+
+
+.menu-nav a
+{
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.author
+{
+    max-width: 400px;
+    flex-basis: 40%;
+}
+
+section
+{
+    padding-left: 10rem;  
+    padding-right: 10rem;
+}
+
+.container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.presentazione
+{
+
+    margin-left: 80px;
+}
+
+.presentazione p
+{
+    text-align: left;
+    align-items: center;
+}
+
+.presentazione h1, h2
+{
+    text-transform: uppercase;
+}
+
+.icon, .social
+{
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+
+.btn, input[type="submit"]
+{
+    background-color: #A19AA5;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 30%;
+}
+
+.space
+{
+    padding-top: 12rem;
+}
+
+.minispace
+{
+    padding-top: 1.5rem;
+}
+
+
+
+.contatti h2, h3
+{
+    text-transform: uppercase;
+}
+
+footer
+{
+    color: white;
+    padding-top: 15%;
+
+}
+
+.left
+{
+    width: 25%;
+    float: left;
+}
+
+.right 
+{
+    width: 60%;
+    float: right;
+}
+
+
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.img-project-full
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.project 
+{
+    width: 100%;
+    height: auto;
+}
+
+
+label > span 
+{
+    display: none;
+}
+
+input, textarea, button 
+{
+    width: 100%;
+    padding: 1em;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"], input[type="email"], textarea 
+{
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea 
+{
+    height: 6em;
+    resize: none;
+}
+
+.container-footer
+{
+    background-color:#A19AA5 ;
+    padding: 20px;
+}
+
+.icon-social
+{
+    padding-top: 15px;
+}
+
+.btn:hover, input[type="submit"]:hover
+{
+    background-color: #BAB5BD;
+    color: white;
+}
+
+svg
+{
+    background-color: none !important;
+}
+svg:hover
+{
+    fill:#BAB5BD; 
+    background-color: none !important;
+}
+
+mark
+{
+    background-color: #A19AAA;
+    color: white;
+
+}
+
+
+
+
